@@ -9,6 +9,7 @@ import { increment } from "../../store/counterSlice";
 
 export default function AboutPage() {
     const count = useAppSelector((state) => state.counter.value);
+    console.log("🚀 ~ count:", count);
     const dispatch = useAppDispatch();
 
     const create = () => {
