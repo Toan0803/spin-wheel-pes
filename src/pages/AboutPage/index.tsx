@@ -9,18 +9,13 @@ import { increment } from "../../store/counterSlice";
 
 export default function AboutPage() {
     const count = useAppSelector((state) => state.counter.value);
-    console.log("🚀 ~ count:", count);
     const dispatch = useAppDispatch();
 
     const create = () => {
         dispatch(increment());
     };
 
-    const {
-        handleSubmit,
-        control,
-        formState: { errors },
-    } = useForm();
+    const { handleSubmit, control } = useForm();
 
     const onSubmit = (data: any) => {
         console.log(data);
