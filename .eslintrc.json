@@ -36,6 +36,9 @@
         "eqeqeq": [2, "smart"],
         "one-var-declaration-per-line": [2, "always"],
         "new-cap": 2,
-        "no-case-declarations": 0
+        "no-case-declarations": 0,
+        "react/react-in-jsx-scope": "off",
+        // allow jsx syntax in js files (for next.js project)
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", "ts", "tsx"] }],
     }
 }

@@ -1,5 +1,4 @@
-import React from "react";
-import { Breadcrumb, Layout, Menu, MenuProps, theme } from "antd";
+import { Breadcrumb, Layout, Menu, MenuProps } from "antd";
 import { useNavigate } from "react-router-dom";
 
 const { Header, Content, Footer } = Layout;

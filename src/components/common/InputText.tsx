@@ -1,5 +1,4 @@
 import { Input } from "antd";
-import React from "react";
 import { Controller } from "react-hook-form";
 
 export interface InputTextType {

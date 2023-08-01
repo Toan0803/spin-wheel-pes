@@ -1,5 +1,5 @@
 import { Button } from "antd";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import InputNumberCustom from "../../components/common/InputNumber";
 import InputText from "../../components/common/InputText";

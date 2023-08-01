@@ -1,6 +1,4 @@
-import React from "react";
 import "./style.scss";
-import { url } from "inspector";
 
 export default function HomePage() {
     const listWheel = [
